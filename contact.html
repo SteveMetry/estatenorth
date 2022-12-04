@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="imgs/siteIcon.png">
+  <title>NZ ARCHVIZ | Architecture Visualisation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="styles/components.css" rel="stylesheet"/>
+  <link href="styles/contact.css" rel="stylesheet"/>
+  <meta name="description" content="Transform floor plans into 3D Immersive Designs, 3D floor plamns and Realistic Photos ">
+  <meta name="keywords" content="nzarchviz, 3D, immersive, designs, floor-plans, realistic, renders, architecture, homes">
+  <meta name="author" content="Steve Metry">
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '535759415123658');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=535759415123658&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <img class="nav-logo" src="imgs/logo.png" alt="logo">
+    </div>
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="listings.html">Listings</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="sold.html">Sold</a>
+      <button onclick="goToDifferentPage('contact')" class="main-btn">Contact Us</button>
+    </div>
+  </nav>
+  <main>
+    <div class="main-contact-container">
+      <div class="site-info-container">
+        <h1>Contact Us.</h1>
+        <p>
+          <h5>Email:<a href="mailto:hello@estatenorth.com?subject=contact" class="underline">hello@estatenorth.com</a></h5> 
+          <h5>Phone:<a href="tel:+64211808620" class="underline">+64 21 180 8620</a></h5>
+        </p>
+        <div class="social-media-icons">
+          <a href="https://www.facebook.com/profile.php?id=100088271957557"><img src="imgs/facebook-icon.png" alt="Facebook Icon"></a>
+          <img src="imgs/instagram-icon.png" alt="Instagram Icon">
+        </div>
+      </div>
+      <form id="contactForm" class="contact-form p-6 m-auto" onsubmit="submitQuery(event, 'contactForm')">
+        <div class="font-thin">
+          <input
+            required  
+            placeholder="Full Name"
+            name="name"
+            class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              border
+              border-solid
+              border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              mb-6
+              focus:border-blue-600
+              focus:outline-none
+            " 
+          />
+          <input 
+            placeholder="Subject"
+            name="subject"
+            id="subject"
+            class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              border
+              border-solid
+              border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              mb-6
+              focus:border-blue-600
+              focus:outline-none
+            " 
+          />
+          <textarea
+            required
+            placeholder="Body"
+            name="body"
+            id="body"
+            rows="3"
+            class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              border
+              border-solid
+              border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              mb-6
+              focus:border-blue-600
+              focus:outline-none
+            " 
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="main-btn bg-black white m-auto"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-left">
+      <h3 class="font-mono">Estate North</h3>
+    </div>
+    <div class="footer-right">
+      <h3 class="font-mono">Regions:</h3>
+      <a href="listings.html#Torbay">Torbay</a>
+      <a href="listings.html#brownsBay">Browns Bay</a>
+      <a href="listings.html#devonport">Devonport</a>
+    </div>
+  </footer>
+  <script src="components.js"></script>
+</body>
+</html>

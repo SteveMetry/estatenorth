@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="imgs/siteIcon.png">
+  <title>Estate North | Real Estate</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="styles/components.css" rel="stylesheet"/>
+  <link href="styles/index.css" rel="stylesheet"/>
+  <meta name="description" content="Transform floor plans into 3D Immersive Designs, 3D floor plamns and Realistic Photos ">
+  <meta name="keywords" content="nzarchviz, 3D, immersive, designs, floor-plans, realistic, renders, architecture, homes">
+  <meta name="author" content="Steve Metry">
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '535759415123658');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=535759415123658&ev=PageView&noscript=1"
+  /></noscript> 
+  <!-- End Meta Pixel Code -->
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <img class="nav-logo" src="imgs/logo.png" alt="logo">
+    </div>
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="listings.html">Listings</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="sold.html">Sold</a>
+      <button onclick="goToDifferentPage('contact')" class="main-btn">Contact Us</button>
+    </div>
+  </nav>
+  <main class="main-content">
+  <div class="content-container">
+    <h1>Estate North, Your Realtors</h1>
+    <h3>“We provide a premium service to all of our clients, achieving the best possible sale price at a competitive rate. There is an alternative and it’s fantastic”</h3>
+    <button onclick="goToDifferentPage('listings')" class="main-btn m-auto">Current Listings</button>
+  </div>
+    <video class="full-screen-video" controls muted poster="imgs/img-thumbnail.png">
+      <source src="videos/immersiveDesign.mp4" type="video/mp4" alt="our immersive 3D cinematic designs">
+    Your browser does not support the video tag.
+    </video>
+    <div class="content-container">
+      <h1>View Our Recent Sales</h1>
+      <h3>Want to know what we’ve sold? Click below to see our showcase of properties. You could be next!</h3>
+      <button onclick="goToDifferentPage('sold')" class="main-btn m-auto">Sold Listings</button>
+    </div>
+    <img src="imgs/cabinInMountin.jpeg" alt="realistic reader of the interrier of a cabin in the woods">
+    <div class="block-container">
+        <h1>Need Your Home Sold?</h1>
+        <h2>We got you Covered, with our marketing team behind your back, your home will be sold in no time.</h2>
+      <img class="" src="imgs/laptop.png">
+      <button onclick="goToDifferentPage('projects')" class="main-btn m-auto">Request Consultation</button>
+    </div>
+    <div class="main-cards-container">
+      <h3 class="mt-24 text-center font-mono font-thin text-5xl">People Judge Books by their Covers pick One Today</h3>
+      <div class="cards-container">
+        <div class="each-card-container">
+          <img src="imgs/interierModern.jpeg" alt="3D Floor Plan Realistic Photo Render">
+            <h2>Torbay</h2>
+            <p>
+              Torbay is a northern suburb of Auckland, New Zealand. It is located on the city's North Shore 
+            <br>  
+            Long Bay Regional Park attracts over a million visitors each year. Public beaches include: (Waiake, Torbay Beach, Winstone's Cove, Ladder Bay)   
+           </p>
+          <a href="listings.html#torbay" class="a-btn m-auto">Torbay</a>
+        </div>
+        <div class="each-card-container">
+          <img src="imgs/queenstownModern.jpg" alt="interrier Realistic Photo Render of a home in queenstown">
+            <h2>Browns Bay</h2>
+            <p>
+              Browns Bay is also an ideal suburb for family living. The beachfront comes to life in the summer months with family entertainment and beachfront eateries.  
+            <br>
+              The bustling shopping area provides a complete range of shopping and services
+            </p>
+          <a href="listings.htmlbrownsBay#" class="a-btn m-auto">Browns Bay</a>
+        </div>
+        <div class="each-card-container">
+          <img src="imgs/miniFamilyHome.jpeg" alt="Exterior Realistic Photo Render of a Small Modern Family Home">
+            <h2>Devonport</h2>
+            <p>
+              Devonport is one of the oldest settlements in Auckland. It's known for its vibrant village feel, with plenty of bars, restaurants and cafes.
+            <br>
+            It's also a great suburb for families and it's only a short commute to the CBD, making it ideal for professionals.
+            </p>
+          <a href="listings.html#devonport" class="a-btn m-auto">Devonport</a>
+        </div>
+      </div>
+    </div>
+    <img src="imgs/brickHome.jpeg" alt="realistic reader of the exterior of a home">
+    <div class="content-container">
+      <h1>Estate North Strives for Designing Excellence at an Affordable price</h1>
+      <h3>Let us take you around and you will appreciate The difference we'll make</h3>
+      <button onclick="goToDifferentPage('contact')" class="main-btn m-auto">Contact Us Now</button>
+    </div>
+    <img src="imgs/familyHome.png" alt="realistic reader of the interrier of a family home">
+  <div class="main-contact-container">
+    <div class="site-info-container">
+      <h1>Contact Us.</h1>
+      <p>
+        <h5>Email:<a href="mailto:hello@estatenorth.com" class="underline">hello@estatenorth.com</a></h5> 
+        <h5>Phone:<a href="tel:+64211808620" class="underline">+64 21 180 8620</a></h5>
+      </p>
+      <div class="social-media-icons">
+        <a href="https://www.facebook.com/profile.php?id=100088271957557"><img src="imgs/facebook-icon.png" alt="Facebook Icon"></a>
+        <img src="imgs/instagram-icon.png" alt="Instagram Icon">
+      </div>
+    </div>
+    <form id="indextContactForm" class="contact-form p-6 m-auto" onsubmit="submitQuery(event, 'indextContactForm')">
+      <div class="font-thin">
+        <input
+          required  
+          placeholder="Full Name"
+          name="name"
+          class="
+            form-control
+            block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            border
+            border-solid
+            border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            mb-6
+            focus:border-blue-600
+            focus:outline-none
+          " 
+        />
+        <input 
+          placeholder="Subject"
+          name="subject"
+          id="subject"
+          class="
+            form-control
+            block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            border
+            border-solid
+            border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            mb-6
+            focus:border-blue-600
+            focus:outline-none
+          " 
+        />
+        <textarea
+          required
+          placeholder="Body"
+          name="body"
+          id="body"
+          rows="3"
+          class="
+            form-control
+            block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            border
+            border-solid
+            border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            mb-6
+            focus:border-blue-600
+            focus:outline-none
+          " 
+        ></textarea>
+      </div>
+      <button
+        type="submit"
+        class="main-btn bg-black white m-auto"
+      >
+        Send
+      </button>
+    </form>
+  </div>
+  <footer>
+    <div class="footer-left">
+      <h3 class="font-mono">Estate North</h3>
+    </div>
+    <div class="footer-right">
+      <h3 class="font-mono">Regions:</h3>
+      <a href="listings.html#Torbay">Torbay</a>
+      <a href="listings.html#brownsBay">Browns Bay</a>
+      <a href="listings.html#devonport">Devonport</a>
+    </div>
+  </footer>
+  </main>
+  <script src="components.js"></script>
+</body>
+</html>
